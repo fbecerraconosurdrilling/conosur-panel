@@ -1,0 +1,289 @@
+{
+  "K96400793": {
+    "desde": 1789572526.218933,
+    "alertado": true,
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_slot_offline": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "K96400783": {
+    "desde": 1789580251.129921,
+    "alertado": true,
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_slot_offline": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline",
+    "ultimo_control_alertado": "2026-10-19-13"
+  },
+  "K96399233": {
+    "desde": 1789580251.129921,
+    "alertado": true,
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_slot_offline": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline",
+    "ultimo_control_alertado": "2026-10-19-13"
+  },
+  "L42488893": {
+    "desde": 1789580251.129921,
+    "alertado": true,
+    "slot_previo_offline": null,
+    "ultimo_slot_offline": null,
+    "ultimo_control_alertado": "2026-10-16-22",
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "L42488875": {
+    "desde": 1789580251.129921,
+    "alertado": true,
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "alertas": [],
+    "ultimo_estado": "online",
+    "ultimo_control_alertado": "2026-10-18-16"
+  },
+  "BD2158889": {
+    "desde": 1789580251.129921,
+    "alertado": true,
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "L42488960": {
+    "desde": 1789580251.129921,
+    "alertado": true,
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "BC8859620": {
+    "desde": 1789580251.129921,
+    "alertado": true,
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "BC8859595": {
+    "desde": 1789582094.3417413,
+    "alertado": false,
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "alertas": [],
+    "ultimo_estado": "offline",
+    "ultimo_control_alertado": "2026-10-19-13"
+  },
+  "L42488892": {
+    "desde": 1789582094.3417413,
+    "alertado": false,
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_slot_offline": "2026-10-19-13",
+    "ultimo_control_alertado": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "BC8859691": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": "2026-10-19-08",
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "BA9997052": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "BE8067220": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "BK0617275": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "BC8859756": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "K96399637": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "L42488931": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": "2026-10-19-13",
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "BH3710402": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": "2026-10-19-13",
+    "alertas": [
+      {
+        "id": "BH3710402-20261019112108",
+        "fecha": "2026-10-19 11:21:08",
+        "slot": "2026-10-19-08",
+        "serial": "BH3710402",
+        "name": "MARI - HY06 - CI",
+        "grupo": "Proyecto (Casilla)",
+        "subgrupos": [
+          "NOA"
+        ],
+        "motivo": "status=2 (no reporta, cámara sin conexión)",
+        "leida": false,
+        "tipo": "perdida"
+      }
+    ],
+    "ultimo_estado": "offline"
+  },
+  "J64968587": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": "2026-10-19-08",
+    "alertas": [
+      {
+        "id": "J64968587-20261019112108",
+        "fecha": "2026-10-19 11:21:08",
+        "slot": "2026-10-19-08",
+        "serial": "J64968587",
+        "name": "MARI - HY06 - CT",
+        "grupo": "Proyecto Activo",
+        "subgrupos": [
+          "NOA"
+        ],
+        "motivo": "status=2 (no reporta, cámara sin conexión)",
+        "leida": false,
+        "tipo": "perdida"
+      }
+    ],
+    "ultimo_estado": "online"
+  },
+  "BF7706548": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": "2026-10-19-08",
+    "alertas": [
+      {
+        "id": "BF7706548-20261019112108",
+        "fecha": "2026-10-19 11:21:08",
+        "slot": "2026-10-19-08",
+        "serial": "BF7706548",
+        "name": "MARI - HY06 - CE",
+        "grupo": "Proyecto Activo",
+        "subgrupos": [
+          "NOA"
+        ],
+        "motivo": "status=2 (no reporta, cámara sin conexión)",
+        "leida": false,
+        "tipo": "perdida"
+      }
+    ],
+    "ultimo_estado": "online"
+  },
+  "BK9773784": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "BF8194990": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "K91685117": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "K96399197": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "L42488899": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "L42488904": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "K91685085": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "K96400014": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "BK9773894": {
+    "ultimo_slot_offline": "2026-10-19-13",
+    "slot_previo_offline": "2026-10-19-08",
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "offline"
+  },
+  "L42488935": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": "2026-10-19-08",
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "L42488900": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "online"
+  },
+  "K91685236": {
+    "ultimo_slot_offline": null,
+    "slot_previo_offline": null,
+    "ultimo_control_alertado": null,
+    "alertas": [],
+    "ultimo_estado": "online"
+  }
+}
