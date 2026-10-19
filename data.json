@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-10-19T14:56:49",
+  "proyectos": [
+    {
+      "antena": {
+        "estado": "SIN DATOS",
+        "ultima_lectura": "—"
+      },
+      "camaras": [
+        {
+          "estado": "FAIL",
+          "tipo": "CI"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CT"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CI"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CS"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CS"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CE"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CT"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CE"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CE"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CE"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CE"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CI"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CE"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CE"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CI"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CI"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CI"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CT"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CT"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CT"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CT"
+        }
+      ],
+      "nombre": "NOA"
+    },
+    {
+      "antena": {
+        "estado": "SIN DATOS",
+        "ultima_lectura": "—"
+      },
+      "camaras": [
+        {
+          "estado": "OK",
+          "tipo": "CS"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CAM"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CE"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CAM"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CT"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CI"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CI"
+        },
+        {
+          "estado": "FAIL",
+          "tipo": "CE"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CT"
+        }
+      ],
+      "nombre": "MENDOZA"
+    },
+    {
+      "antena": {
+        "estado": "SIN DATOS",
+        "ultima_lectura": "—"
+      },
+      "camaras": [
+        {
+          "estado": "OK",
+          "tipo": "CAM"
+        },
+        {
+          "estado": "OK",
+          "tipo": "CAM"
+        }
+      ],
+      "nombre": "SIN ASIGNAR"
+    }
+  ]
+}
