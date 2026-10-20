@@ -41,7 +41,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 08 - V2 - ARIZARO 02",
-        "ultima_lectura": "20/10/2026-16:35:42"
+        "ultima_lectura": "20/10/2026-16:40:57"
       },
       "camaras": [
         {
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "20/10/2026-16:35:42"
+        "ultima_lectura": "20/10/2026-16:40:57"
       },
       "camaras": [
         {
@@ -195,7 +195,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "20/10/2026-16:35:42"
+        "ultima_lectura": "20/10/2026-16:40:57"
       },
       "camaras": [
         {
@@ -257,5 +257,5 @@
       "starlink_id": "ut01000000-00000000-00d0e1d0"
     }
   ],
-  "timestamp": "2026-10-20T16:36:30"
+  "timestamp": "2026-10-20T16:41:39"
 }
