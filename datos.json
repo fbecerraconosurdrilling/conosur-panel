@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "20/10/2026-16:02:12"
+        "ultima_lectura": "20/10/2026-16:07:27"
       },
       "camaras": [
         {
@@ -33,7 +33,81 @@
       "nombre": "MARIANA",
       "sede": "NOA",
       "starlink_id": "ut41388399-80616403-d91263e7"
+    },
+    {
+      "_estado": {
+        "online": false
+      },
+      "antena": {
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 08 - V2 - ARIZARO 02",
+        "ultima_lectura": "20/10/2026-16:05:57"
+      },
+      "camaras": [
+        {
+          "estado": "FAIL",
+          "name": "ARIZ 2 -  FO01 - CI",
+          "serial": "K96399233",
+          "tipo": "CI"
+        },
+        {
+          "estado": "OK",
+          "name": "ARIZ 2 - FO01 - CE",
+          "serial": "BC8859691",
+          "tipo": "CE"
+        },
+        {
+          "estado": "OK",
+          "name": "ARIZ 2 - FO01 - CT",
+          "serial": "L42488893",
+          "tipo": "CT"
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "ARIZARO 2",
+      "sede": "NOA",
+      "starlink_id": "ut01000000-00000000-00d64fa3"
+    },
+    {
+      "_estado": {
+        "online": false
+      },
+      "antena": {
+        "estado": "FAIL",
+        "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
+        "ultima_lectura": "—"
+      },
+      "camaras": [
+        {
+          "estado": "FAIL",
+          "name": "ARIZ - ALM - CS",
+          "serial": "BK9773784",
+          "tipo": "CS"
+        },
+        {
+          "estado": "FAIL",
+          "name": "ARIZ - HY01 - CE",
+          "serial": "BC8859595",
+          "tipo": "CE"
+        },
+        {
+          "estado": "FAIL",
+          "name": "ARIZ - HY01 - CI",
+          "serial": "K96400783",
+          "tipo": "CI"
+        },
+        {
+          "estado": "FAIL",
+          "name": "ARIZ - HY01 - CT",
+          "serial": "L42488892",
+          "tipo": "CT"
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "ARIZARO",
+      "sede": "NOA",
+      "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-10-20T16:02:59"
+  "timestamp": "2026-10-20T16:08:13"
 }
