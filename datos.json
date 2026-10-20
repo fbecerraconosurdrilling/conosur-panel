@@ -41,7 +41,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 08 - V2 - ARIZARO 02",
-        "ultima_lectura": "20/10/2026-16:46:27"
+        "ultima_lectura": "20/10/2026-16:51:27"
       },
       "camaras": [
         {
@@ -153,80 +153,6 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
-        "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "20/10/2026-16:46:27"
-      },
-      "camaras": [
-        {
-          "estado": "OK",
-          "name": "PSJ -ALM - CS",
-          "serial": "BK0617275",
-          "tipo": "PSJ -ALM - CS"
-        },
-        {
-          "estado": "OK",
-          "name": "PSJ - FO02 - CT",
-          "serial": "BE8067220",
-          "tipo": "PSJ - FO02 - CT"
-        },
-        {
-          "estado": "OK",
-          "name": "PSJ - FO02 - CI",
-          "serial": "BD2158889",
-          "tipo": "PSJ - FO02 - CI"
-        },
-        {
-          "estado": "FAIL",
-          "name": "PSJ - FO02 - CE",
-          "serial": "L42488960",
-          "tipo": "PSJ - FO02 - CE"
-        }
-      ],
-      "estado_proyecto": "Activo",
-      "nombre": "PROYECTO SAN JORGE",
-      "sede": "MENDOZA",
-      "starlink_id": "ut31a00e86-85115802-59f6b6df"
-    },
-    {
-      "_estado": {
-        "online": false
-      },
-      "antena": {
-        "estado": "OK",
-        "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "20/10/2026-16:46:27"
-      },
-      "camaras": [
-        {
-          "estado": "FAIL",
-          "name": "PSJ - HY02-CE",
-          "serial": "BC8859620",
-          "tipo": "PSJ - HY02-CE"
-        },
-        {
-          "estado": "OK",
-          "name": "PSJ - HY02 - CI",
-          "serial": "K96400014",
-          "tipo": "PSJ - HY02 - CI"
-        },
-        {
-          "estado": "OK",
-          "name": "PSJ - HY02 - CT",
-          "serial": "L42488875",
-          "tipo": "PSJ - HY02 - CT"
-        }
-      ],
-      "estado_proyecto": "Activo",
-      "nombre": "PROYECTO SAN JORGE 2",
-      "sede": "MENDOZA",
-      "starlink_id": "ut41708600-03128002-99a25755"
-    },
-    {
-      "_estado": {
-        "online": false
-      },
-      "antena": {
         "estado": "FAIL",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
         "ultima_lectura": "—"
@@ -263,7 +189,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "20/10/2026-16:46:27"
+        "ultima_lectura": "20/10/2026-16:51:27"
       },
       "camaras": [
         {
@@ -297,7 +223,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "20/10/2026-16:46:27"
+        "ultima_lectura": "20/10/2026-16:51:27"
       },
       "camaras": [
         {
@@ -331,5 +257,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-20T16:47:32"
+  "timestamp": "2026-10-20T16:53:13"
 }
