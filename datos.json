@@ -7,26 +7,26 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "20/10/2026-16:17:42"
+        "ultima_lectura": "20/10/2026-16:18:57"
       },
       "camaras": [
         {
           "estado": "OK",
           "name": "MARI - HY06 - CT",
           "serial": "J64968587",
-          "tipo": "CT"
+          "tipo": "MARI - HY06 - CT"
         },
         {
           "estado": "OK",
           "name": "MARI - HY06 - CE",
           "serial": "BF7706548",
-          "tipo": "CE"
+          "tipo": "MARI - HY06 - CE"
         },
         {
           "estado": "FAIL",
           "name": "MARI - HY06 - CI",
           "serial": "BH3710402",
-          "tipo": "CI"
+          "tipo": "MARI - HY06 - CI"
         }
       ],
       "estado_proyecto": "Activo",
@@ -41,26 +41,26 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 08 - V2 - ARIZARO 02",
-        "ultima_lectura": "20/10/2026-16:17:27"
+        "ultima_lectura": "20/10/2026-16:18:57"
       },
       "camaras": [
         {
           "estado": "FAIL",
           "name": "ARIZ 2 -  FO01 - CI",
           "serial": "K96399233",
-          "tipo": "CI"
+          "tipo": "ARIZ 2 -  FO01 - CI"
         },
         {
           "estado": "OK",
           "name": "ARIZ 2 - FO01 - CE",
           "serial": "BC8859691",
-          "tipo": "CE"
+          "tipo": "ARIZ 2 - FO01 - CE"
         },
         {
           "estado": "OK",
           "name": "ARIZ 2 - FO01 - CT",
           "serial": "L42488893",
-          "tipo": "CT"
+          "tipo": "ARIZ 2 - FO01 - CT"
         }
       ],
       "estado_proyecto": "Activo",
@@ -82,25 +82,25 @@
           "estado": "FAIL",
           "name": "ARIZ - ALM - CS",
           "serial": "BK9773784",
-          "tipo": "CS"
+          "tipo": "ARIZ - ALM - CS"
         },
         {
           "estado": "FAIL",
           "name": "ARIZ - HY01 - CE",
           "serial": "BC8859595",
-          "tipo": "CE"
+          "tipo": "ARIZ - HY01 - CE"
         },
         {
           "estado": "FAIL",
           "name": "ARIZ - HY01 - CI",
           "serial": "K96400783",
-          "tipo": "CI"
+          "tipo": "ARIZ - HY01 - CI"
         },
         {
           "estado": "FAIL",
           "name": "ARIZ - HY01 - CT",
           "serial": "L42488892",
-          "tipo": "CT"
+          "tipo": "ARIZ - HY01 - CT"
         }
       ],
       "estado_proyecto": "Activo",
@@ -109,5 +109,5 @@
       "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-10-20T16:18:32"
+  "timestamp": "2026-10-20T16:20:56"
 }
