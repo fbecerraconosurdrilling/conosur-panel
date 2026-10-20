@@ -5,7 +5,7 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
         "ultima_lectura": "20/10/2026-16:25:42"
       },
@@ -41,7 +41,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 08 - V2 - ARIZARO 02",
-        "ultima_lectura": "20/10/2026-16:30:27"
+        "ultima_lectura": "20/10/2026-16:35:42"
       },
       "camaras": [
         {
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "20/10/2026-16:30:27"
+        "ultima_lectura": "20/10/2026-16:35:42"
       },
       "camaras": [
         {
@@ -195,7 +195,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "20/10/2026-16:30:27"
+        "ultima_lectura": "20/10/2026-16:35:42"
       },
       "camaras": [
         {
@@ -221,7 +221,41 @@
       "nombre": "PROYECTO SAN JORGE 2",
       "sede": "MENDOZA",
       "starlink_id": "ut41708600-03128002-99a25755"
+    },
+    {
+      "_estado": {
+        "online": false
+      },
+      "antena": {
+        "estado": "FAIL",
+        "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
+        "ultima_lectura": "—"
+      },
+      "camaras": [
+        {
+          "estado": "FAIL",
+          "name": "PIR -   - CT",
+          "serial": "L42488899",
+          "tipo": "PIR -   - CT"
+        },
+        {
+          "estado": "FAIL",
+          "name": "PIR -   - CE",
+          "serial": "K91685117",
+          "tipo": "PIR -   - CE"
+        },
+        {
+          "estado": "FAIL",
+          "name": "PIR -   - CI",
+          "serial": "K96399197",
+          "tipo": "PIR -   - CI"
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "PIRQUITAS 1",
+      "sede": "MENDOZA",
+      "starlink_id": "ut01000000-00000000-00d0e1d0"
     }
   ],
-  "timestamp": "2026-10-20T16:31:17"
+  "timestamp": "2026-10-20T16:36:30"
 }
