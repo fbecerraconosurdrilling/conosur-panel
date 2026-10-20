@@ -27,19 +27,16 @@
     
     .container { max-width: 1400px; margin: 0 auto; }
     
-    /* Header */
     .header-info { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 20px; }
     .header-info h1 { margin: 0; font-size: 24px; font-weight: 600; color: var(--blue); letter-spacing: 0.5px; }
     .header-info span { color: var(--text-muted); font-size: 12px; font-family: monospace; }
     
-    /* Filtros */
     .filters-bar { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; background: var(--surface); padding: 15px; border-radius: 8px; border: 1px solid var(--border); }
     .filter-group { display: flex; flex-direction: column; gap: 5px; }
     .filter-group label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; font-weight: 600; }
     .filter-group select, .filter-group input { background: var(--bg); border: 1px solid var(--border); color: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; }
     .filter-group select:focus, .filter-group input:focus { border-color: var(--blue); }
     
-    /* Tarjetas */
     .grid-proyectos { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
     .proj-card {
       background: var(--surface);
@@ -71,7 +68,6 @@
     .proj-card .pc-cams .pc-cam-item { display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; }
     .proj-card .pc-cams .pc-cam-item:last-child { margin-bottom: 0; }
     
-    /* Colores de estado */
     .c-ok { color: var(--green); font-weight: bold; }
     .c-fail { color: var(--red); font-weight: bold; }
     .c-warn { color: var(--amber); font-weight: bold; }
@@ -87,8 +83,8 @@
 
     <div class="filters-bar">
       <div class="filter-group">
-        <label>Buscar Proyecto</label>
-        <input type="text" id="filtro-nombre" onkeyup="renderizarTarjetas()" placeholder="Ej: MARIANA...">
+        <label>Buscar (Proyecto o Cámara)</label>
+        <input type="text" id="filtro-nombre" onkeyup="renderizarTarjetas()" placeholder="Ej: MARIANA o HY06...">
       </div>
       <div class="filter-group">
         <label>Sede</label>
@@ -127,14 +123,13 @@
 
     async function cargarDatos() {
       try {
-        // ACÁ APUNTAMOS AL ARCHIVO CORRECTO
+        // ACÁ LEE EL ARCHIVO CORRECTO
         const res = await fetch("datos.json");
         if (!res.ok) throw new Error("No se encontró datos.json");
         
         const data = await res.json();
         proyectosList = data.proyectos || [];
         
-        // Mostramos la fecha de actualización
         if (data.timestamp) {
           document.getElementById('last-update').innerText = `Última actualización: ${new Date(data.timestamp).toLocaleString()}`;
         }
@@ -154,10 +149,14 @@
       const fEstadoAnt = document.getElementById('filtro-estado-ant').value;
 
       let filtrados = proyectosList.filter(p => {
-        const matchNombre = p.nombre.toLowerCase().includes(fNombre);
+        const matchNombreProy = p.nombre.toLowerCase().includes(fNombre);
+        const matchNombreCam = p.camaras.some(c => (c.name || "").toLowerCase().includes(fNombre) || (c.tipo || "").toLowerCase().includes(fNombre));
+        const matchNombre = matchNombreProy || matchNombreCam;
+
         const matchSede = fSede === "" || p.sede === fSede;
         const matchProy = fEstadoProy === "" || p.estado_proyecto === fEstadoProy;
         const matchAnt = fEstadoAnt === "" || (p.antena && p.antena.estado === fEstadoAnt);
+        
         return matchNombre && matchSede && matchProy && matchAnt;
       });
 
@@ -168,9 +167,10 @@
 
       grid.innerHTML = filtrados.map(p => {
         const antOk = p.antena && p.antena.estado === 'OK';
+        
         const camsHtml = p.camaras.map(c => `
           <div class="pc-cam-item">
-            <span>${c.tipo}</span>
+            <span>${c.name || c.tipo}</span>
             <span class="${c.estado === 'OK' ? 'c-ok' : 'c-fail'}">${c.estado}</span>
           </div>
         `).join('') || '<div class="pc-cam-item"><span class="c-mut">Sin cámaras</span></div>';
@@ -198,10 +198,7 @@
       }).join('');
     }
 
-    // Cargar datos al inicio
     cargarDatos();
-    
-    // Recargar cada 5 minutos para mantener actualizado
     setInterval(cargarDatos, 5 * 60 * 1000);
   </script>
 </body>
