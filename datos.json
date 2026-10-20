@@ -41,7 +41,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 08 - V2 - ARIZARO 02",
-        "ultima_lectura": "20/10/2026-16:40:57"
+        "ultima_lectura": "20/10/2026-16:45:42"
       },
       "camaras": [
         {
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "20/10/2026-16:40:57"
+        "ultima_lectura": "20/10/2026-16:45:42"
       },
       "camaras": [
         {
@@ -195,7 +195,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "20/10/2026-16:40:57"
+        "ultima_lectura": "20/10/2026-16:45:42"
       },
       "camaras": [
         {
@@ -255,7 +255,41 @@
       "nombre": "PIRQUITAS 1",
       "sede": "MENDOZA",
       "starlink_id": "ut01000000-00000000-00d0e1d0"
+    },
+    {
+      "_estado": {
+        "online": false
+      },
+      "antena": {
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
+        "ultima_lectura": "20/10/2026-16:45:42"
+      },
+      "camaras": [
+        {
+          "estado": "FAIL",
+          "name": "PSJ - HY02-CE",
+          "serial": "BC8859620",
+          "tipo": "PSJ - HY02-CE"
+        },
+        {
+          "estado": "OK",
+          "name": "PSJ - HY02 - CI",
+          "serial": "K96400014",
+          "tipo": "PSJ - HY02 - CI"
+        },
+        {
+          "estado": "OK",
+          "name": "PSJ - HY02 - CT",
+          "serial": "L42488875",
+          "tipo": "PSJ - HY02 - CT"
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "SAN JORGE 2",
+      "sede": "MENDOZA",
+      "starlink_id": "ut41708600-03128002-99a25755"
     }
   ],
-  "timestamp": "2026-10-20T16:41:39"
+  "timestamp": "2026-10-20T16:46:42"
 }
