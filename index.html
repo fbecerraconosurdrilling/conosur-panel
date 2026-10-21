@@ -79,21 +79,51 @@
       align-items: flex-start; 
     }
     .proj-card .pc-cams .pc-cam-item:last-child { margin-bottom: 0; }
-    .proj-card .pc-cams .pc-cam-item .cam-row { display: flex; justify-content: space-between; width: 100%; }
+    .proj-card .pc-cams .pc-cam-item .cam-row { display: flex; justify-content: space-between; width: 100%; align-items: center;}
     
-    /* Texto de última conexión */
-    .ultima-conexion {
-      font-size: 10px;
-      color: var(--text-muted);
-      margin-top: 2px;
-      font-style: italic;
+    /* Botón de Reloj */
+    .btn-info-cam {
+      background: #da3633;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 11px;
+      cursor: pointer;
+      margin-left: 5px;
+      transition: 0.2s;
     }
+    .btn-info-cam:hover { background: #f85149; }
 
     /* Colores de estado */
     .c-ok { color: var(--green); font-weight: bold; }
     .c-fail { color: var(--red); font-weight: bold; }
     .c-warn { color: var(--amber); font-weight: bold; }
     .c-mut { color: var(--text-muted); }
+
+    /* MODAL (Ventana Emergente) */
+    .modal-overlay {
+      display: none; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(3px); z-index: 1000; align-items: center; justify-content: center;
+    }
+    .modal-box {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+      padding: 25px; width: 400px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .modal-title {
+      color: var(--blue); font-size: 18px; font-weight: bold; margin-bottom: 15px;
+      border-bottom: 1px solid var(--border); padding-bottom: 10px;
+    }
+    .modal-row {
+      display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 14px;
+    }
+    .modal-row strong { color: var(--text-muted); }
+    .btn-cerrar {
+      width: 100%; margin-top: 20px; padding: 10px; background: #21262d; color: white;
+      border: 1px solid var(--border); border-radius: 6px; cursor: pointer; font-weight: bold;
+    }
+    .btn-cerrar:hover { background: #30363d; }
   </style>
 </head>
 <body>
@@ -140,12 +170,40 @@
     </div>
   </div>
 
+  <!-- VENTANA EMERGENTE (MODAL) -->
+  <div id="modalCamara" class="modal-overlay" onclick="cerrarModal(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <div class="modal-title" id="modal-cam-name">Nombre de la Cámara</div>
+      
+      <div class="modal-row">
+        <strong>Estado Actual:</strong>
+        <span class="c-fail">OFFLINE (Desconectada)</span>
+      </div>
+      
+      <div class="modal-row">
+        <strong>Última Conexión:</strong>
+        <span id="modal-cam-fecha">Cargando...</span>
+      </div>
+
+      <div class="modal-row">
+        <strong>Tiempo Caída:</strong>
+        <span id="modal-cam-tiempo" style="color: var(--amber);">Calculando...</span>
+      </div>
+
+      <div class="modal-row" style="margin-top: 15px; border-top: 1px dashed var(--border); padding-top: 15px;">
+        <strong>ID / Serial:</strong>
+        <span id="modal-cam-serial" style="font-family: monospace;">—</span>
+      </div>
+      
+      <button class="btn-cerrar" onclick="cerrarModal()">CERRAR VENTANA</button>
+    </div>
+  </div>
+
   <script>
     let proyectosList = [];
 
     async function cargarDatos() {
       try {
-        // ACÁ ESTÁ EL TRUCO: El ?t= obliga al navegador a saltear el caché
         const res = await fetch("datos.json?t=" + new Date().getTime());
         if (!res.ok) throw new Error("No se encontró datos.json");
         
@@ -191,18 +249,23 @@
         const antOk = p.antena && p.antena.estado === 'OK';
         
         const camsHtml = p.camaras.map(c => {
-          let extraInfo = "";
-          if (c.estado === 'FAIL' && c.ultima_conexion) {
-            const fecha = new Date(c.ultima_conexion * 1000);
-            extraInfo = `<span class="ultima-conexion">Últ. conexión: ${fecha.toLocaleString()}</span>`;
+          // Si está en FAIL, mostramos el botón para abrir el modal
+          let botonInfo = "";
+          if (c.estado === 'FAIL') {
+             // Pasamos los datos al botón mediante atributos onclick
+             const cData = encodeURIComponent(JSON.stringify(c));
+             botonInfo = `<button class="btn-info-cam" onclick="abrirModal('${cData}')">⏱ Ver Info</button>`;
           }
+
           return `
             <div class="pc-cam-item">
               <div class="cam-row">
                 <span>${c.name || c.tipo}</span>
-                <span class="${c.estado === 'OK' ? 'c-ok' : 'c-fail'}">${c.estado}</span>
+                <span>
+                  <span class="${c.estado === 'OK' ? 'c-ok' : 'c-fail'}">${c.estado}</span>
+                  ${botonInfo}
+                </span>
               </div>
-              ${extraInfo}
             </div>
           `;
         }).join('') || '<div class="pc-cam-item"><span class="c-mut">Sin cámaras</span></div>';
@@ -230,10 +293,53 @@
       }).join('');
     }
 
+    // LÓGICA DEL MODAL
+    function abrirModal(cDataJson) {
+      const cam = JSON.parse(decodeURIComponent(cDataJson));
+      
+      document.getElementById('modal-cam-name').innerText = cam.name || cam.tipo;
+      document.getElementById('modal-cam-serial').innerText = cam.serial || 'No disponible';
+      
+      const fechaEl = document.getElementById('modal-cam-fecha');
+      const tiempoEl = document.getElementById('modal-cam-tiempo');
+
+      if (cam.ultima_conexion) {
+        const fechaCaida = new Date(cam.ultima_conexion * 1000);
+        fechaEl.innerText = fechaCaida.toLocaleString();
+        fechaEl.style.color = "var(--text)";
+
+        // Calcular el tiempo transcurrido
+        const ahora = new Date();
+        const diffMs = ahora - fechaCaida;
+        const diffMins = Math.floor(diffMs / 60000);
+        
+        let tiempoStr = "";
+        if (diffMins < 60) {
+          tiempoStr = `Hace ${diffMins} minutos`;
+        } else if (diffMins < 1440) {
+          const horas = Math.floor(diffMins / 60);
+          tiempoStr = `Hace ${horas} horas y ${diffMins % 60} mins`;
+        } else {
+          const dias = Math.floor(diffMins / 1440);
+          tiempoStr = `Hace ${dias} días`;
+        }
+        tiempoEl.innerText = tiempoStr;
+      } else {
+        fechaEl.innerText = "Sin registro previo";
+        fechaEl.style.color = "var(--text-muted)";
+        tiempoEl.innerText = "Desconocido";
+      }
+
+      document.getElementById('modalCamara').style.display = 'flex';
+    }
+
+    function cerrarModal(e) {
+      if(e && e.target !== e.currentTarget) return; // Evitar que se cierre al hacer clic adentro
+      document.getElementById('modalCamara').style.display = 'none';
+    }
+
     // Cargar datos al inicio
     cargarDatos();
-    
-    // Recargar cada 5 minutos
     setInterval(cargarDatos, 5 * 60 * 1000);
   </script>
 </body>
