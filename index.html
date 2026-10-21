@@ -145,8 +145,8 @@
 
     async function cargarDatos() {
       try {
-        // Leemos el archivo datos.json de la misma carpeta en GitHub
-        const res = await fetch("datos.json");
+        // ACÁ ESTÁ EL TRUCO: El ?t= obliga al navegador a saltear el caché
+        const res = await fetch("datos.json?t=" + new Date().getTime());
         if (!res.ok) throw new Error("No se encontró datos.json");
         
         const data = await res.json();
@@ -192,7 +192,6 @@
         
         const camsHtml = p.camaras.map(c => {
           let extraInfo = "";
-          // SI LA CÁMARA ESTÁ EN FAIL Y TIENE DATO DE ÚLTIMA CONEXIÓN, LO MOSTRAMOS
           if (c.estado === 'FAIL' && c.ultima_conexion) {
             const fecha = new Date(c.ultima_conexion * 1000);
             extraInfo = `<span class="ultima-conexion">Últ. conexión: ${fecha.toLocaleString()}</span>`;
