@@ -5,9 +5,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "21/10/2026-10:07:42"
+        "ultima_lectura": "21/10/2026-10:19:57"
       },
       "camaras": [
         {
@@ -42,9 +42,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 08 - V2 - ARIZARO 02",
-        "ultima_lectura": "21/10/2026-10:07:57"
+        "ultima_lectura": "21/10/2026-10:19:57"
       },
       "camaras": [
         {
@@ -62,11 +62,11 @@
           "ultima_conexion": null
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "ARIZ 2 - FO01 - CT",
           "serial": "L42488893",
           "tipo": "ARIZ 2 - FO01 - CT",
-          "ultima_conexion": null
+          "ultima_conexion": 1792588121.184342
         }
       ],
       "estado_proyecto": "Activo",
@@ -204,9 +204,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "21/10/2026-10:07:57"
+        "ultima_lectura": "21/10/2026-10:19:57"
       },
       "camaras": [
         {
@@ -217,14 +217,14 @@
           "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PSJ - HY02 - CI",
           "serial": "K96400014",
           "tipo": "PSJ - HY02 - CI",
           "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PSJ - HY02 - CT",
           "serial": "L42488875",
           "tipo": "PSJ - HY02 - CT",
@@ -241,9 +241,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "21/10/2026-10:07:57"
+        "ultima_lectura": "21/10/2026-10:19:57"
       },
       "camaras": [
         {
@@ -261,11 +261,11 @@
           "ultima_conexion": null
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "PSJ - FO02 - CI",
           "serial": "BD2158889",
           "tipo": "PSJ - FO02 - CI",
-          "ultima_conexion": null
+          "ultima_conexion": 1792588121.184342
         },
         {
           "estado": "FAIL",
@@ -281,5 +281,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-21T10:08:41"
+  "timestamp": "2026-10-21T10:45:04"
 }
