@@ -189,11 +189,6 @@
         <strong>Tiempo Caída:</strong>
         <span id="modal-cam-tiempo" style="color: var(--amber);">Calculando...</span>
       </div>
-
-      <div class="modal-row" style="margin-top: 15px; border-top: 1px dashed var(--border); padding-top: 15px;">
-        <strong>ID / Serial:</strong>
-        <span id="modal-cam-serial" style="font-family: monospace;">—</span>
-      </div>
       
       <button class="btn-cerrar" onclick="cerrarModal()">CERRAR VENTANA</button>
     </div>
@@ -249,10 +244,8 @@
         const antOk = p.antena && p.antena.estado === 'OK';
         
         const camsHtml = p.camaras.map(c => {
-          // Si está en FAIL, mostramos el botón para abrir el modal
           let botonInfo = "";
           if (c.estado === 'FAIL') {
-             // Pasamos los datos al botón mediante atributos onclick
              const cData = encodeURIComponent(JSON.stringify(c));
              botonInfo = `<button class="btn-info-cam" onclick="abrirModal('${cData}')">⏱ Ver Info</button>`;
           }
@@ -298,7 +291,6 @@
       const cam = JSON.parse(decodeURIComponent(cDataJson));
       
       document.getElementById('modal-cam-name').innerText = cam.name || cam.tipo;
-      document.getElementById('modal-cam-serial').innerText = cam.serial || 'No disponible';
       
       const fechaEl = document.getElementById('modal-cam-fecha');
       const tiempoEl = document.getElementById('modal-cam-tiempo');
@@ -308,7 +300,6 @@
         fechaEl.innerText = fechaCaida.toLocaleString();
         fechaEl.style.color = "var(--text)";
 
-        // Calcular el tiempo transcurrido
         const ahora = new Date();
         const diffMs = ahora - fechaCaida;
         const diffMins = Math.floor(diffMs / 60000);
@@ -334,11 +325,10 @@
     }
 
     function cerrarModal(e) {
-      if(e && e.target !== e.currentTarget) return; // Evitar que se cierre al hacer clic adentro
+      if(e && e.target !== e.currentTarget) return; 
       document.getElementById('modalCamara').style.display = 'none';
     }
 
-    // Cargar datos al inicio
     cargarDatos();
     setInterval(cargarDatos, 5 * 60 * 1000);
   </script>
