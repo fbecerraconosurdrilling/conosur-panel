@@ -6,68 +6,28 @@
   <title>Monitoreo · CONOSUR Drilling</title>
   <style>
     :root {
-      --bg: #0d1117;
-      --surface: #161b22;
-      --border: #2a3449;
-      --text: #e6edf3;
-      --text-muted: #8b949e;
-      --blue: #58a6ff;
-      --green: #3fb950;
-      --red: #f85149;
-      --amber: #d29922;
+      --bg: #0d1117; --surface: #161b22; --border: #2a3449; --text: #e6edf3;
+      --text-muted: #8b949e; --blue: #58a6ff; --green: #3fb950; --red: #f85149; --amber: #d29922;
     }
-    
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 30px;
-    }
-    
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; margin: 0; padding: 30px; }
     .container { max-width: 1400px; margin: 0 auto; }
-    
     .header-info { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 20px; }
     .header-info h1 { margin: 0; font-size: 24px; font-weight: 600; color: var(--blue); letter-spacing: 0.5px; }
     .header-info span { color: var(--text-muted); font-size: 12px; font-family: monospace; }
-    
     .filters-bar { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; background: var(--surface); padding: 15px; border-radius: 8px; border: 1px solid var(--border); }
     .filter-group { display: flex; flex-direction: column; gap: 5px; }
     .filter-group label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; font-weight: 600; }
     .filter-group select, .filter-group input { background: var(--bg); border: 1px solid var(--border); color: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; outline: none; }
     .filter-group select:focus, .filter-group input:focus { border-color: var(--blue); }
-    
     .grid-proyectos { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
-    .proj-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-family: 'Courier New', monospace;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    }
-    .proj-card .pc-header {
-      background: #1f242c;
-      text-align: center;
-      padding: 12px;
-      font-weight: bold;
-      font-size: 16px;
-      text-transform: uppercase;
-      border-bottom: 1px solid var(--border);
-      color: var(--blue);
-    }
-    .proj-card .pc-row {
-      padding: 10px 15px;
-      border-bottom: 1px dashed var(--border);
-      display: flex;
-      justify-content: space-between;
-      font-size: 13px;
-    }
+    .proj-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-family: 'Courier New', monospace; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+    .proj-card .pc-header { background: #1f242c; text-align: center; padding: 12px; font-weight: bold; font-size: 16px; text-transform: uppercase; border-bottom: 1px solid var(--border); color: var(--blue); }
+    .proj-card .pc-row { padding: 10px 15px; border-bottom: 1px dashed var(--border); display: flex; justify-content: space-between; font-size: 13px; }
     .proj-card .pc-row:last-child { border-bottom: none; }
     .proj-card .pc-cams { padding: 10px 15px; }
-    .proj-card .pc-cams .pc-cam-item { display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; }
+    .proj-card .pc-cams .pc-cam-item { display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; flex-direction: column; align-items: flex-start; }
     .proj-card .pc-cams .pc-cam-item:last-child { margin-bottom: 0; }
-    
+    .proj-card .pc-cams .pc-cam-item .cam-row { display: flex; justify-content: space-between; width: 100%; }
     .c-ok { color: var(--green); font-weight: bold; }
     .c-fail { color: var(--red); font-weight: bold; }
     .c-warn { color: var(--amber); font-weight: bold; }
@@ -80,7 +40,6 @@
       <h1>📡 Monitoreo de Proyectos</h1>
       <span id="last-update">Cargando datos...</span>
     </div>
-
     <div class="filters-bar">
       <div class="filter-group">
         <label>Buscar (Proyecto o Cámara)</label>
@@ -112,28 +71,21 @@
         </select>
       </div>
     </div>
-
     <div class="grid-proyectos" id="grid-proyectos">
       <p style="color: var(--text-muted); grid-column: 1 / -1;">Cargando datos de proyectos...</p>
     </div>
   </div>
-
   <script>
     let proyectosList = [];
-
     async function cargarDatos() {
       try {
-        // ACÁ LEE EL ARCHIVO CORRECTO
         const res = await fetch("datos.json");
         if (!res.ok) throw new Error("No se encontró datos.json");
-        
         const data = await res.json();
         proyectosList = data.proyectos || [];
-        
         if (data.timestamp) {
           document.getElementById('last-update').innerText = `Última actualización: ${new Date(data.timestamp).toLocaleString()}`;
         }
-        
         renderizarTarjetas();
       } catch (e) {
         document.getElementById('grid-proyectos').innerHTML = `<p style="color: var(--red); grid-column: 1 / -1;">Error al cargar datos: ${e.message}</p>`;
@@ -142,7 +94,6 @@
 
     function renderizarTarjetas() {
       const grid = document.getElementById('grid-proyectos');
-      
       const fNombre = document.getElementById('filtro-nombre').value.toLowerCase();
       const fSede = document.getElementById('filtro-sede').value;
       const fEstadoProy = document.getElementById('filtro-estado-proy').value;
@@ -152,11 +103,9 @@
         const matchNombreProy = p.nombre.toLowerCase().includes(fNombre);
         const matchNombreCam = p.camaras.some(c => (c.name || "").toLowerCase().includes(fNombre) || (c.tipo || "").toLowerCase().includes(fNombre));
         const matchNombre = matchNombreProy || matchNombreCam;
-
         const matchSede = fSede === "" || p.sede === fSede;
         const matchProy = fEstadoProy === "" || p.estado_proyecto === fEstadoProy;
         const matchAnt = fEstadoAnt === "" || (p.antena && p.antena.estado === fEstadoAnt);
-        
         return matchNombre && matchSede && matchProy && matchAnt;
       });
 
@@ -168,12 +117,22 @@
       grid.innerHTML = filtrados.map(p => {
         const antOk = p.antena && p.antena.estado === 'OK';
         
-        const camsHtml = p.camaras.map(c => `
-          <div class="pc-cam-item">
-            <span>${c.name || c.tipo}</span>
-            <span class="${c.estado === 'OK' ? 'c-ok' : 'c-fail'}">${c.estado}</span>
-          </div>
-        `).join('') || '<div class="pc-cam-item"><span class="c-mut">Sin cámaras</span></div>';
+        const camsHtml = p.camaras.map(c => {
+          let extraInfo = "";
+          if (c.estado === 'FAIL' && c.ultima_conexion) {
+            const fecha = new Date(c.ultima_conexion * 1000);
+            extraInfo = `<span style="font-size:10px; color:var(--text-muted); display:block;">Últ. conexión: ${fecha.toLocaleString()}</span>`;
+          }
+          return `
+            <div class="pc-cam-item">
+              <div class="cam-row">
+                <span>${c.name || c.tipo}</span>
+                <span class="${c.estado === 'OK' ? 'c-ok' : 'c-fail'}">${c.estado}</span>
+              </div>
+              ${extraInfo}
+            </div>
+          `;
+        }).join('') || '<div class="pc-cam-item"><span class="c-mut">Sin cámaras</span></div>';
 
         return `
           <div class="proj-card">
@@ -197,7 +156,6 @@
         `;
       }).join('');
     }
-
     cargarDatos();
     setInterval(cargarDatos, 5 * 60 * 1000);
   </script>
