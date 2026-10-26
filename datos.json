@@ -2,20 +2,20 @@
   "proyectos": [
     {
       "_estado": {
-        "online": true
+        "online": false
       },
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "26/10/2026-10:14:27"
+        "ultima_lectura": "26/10/2026-10:19:42"
       },
       "camaras": [
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "MARI - HY06 - CT",
           "serial": "J64968587",
           "tipo": "MARI - HY06 - CT",
-          "ultima_conexion": null
+          "ultima_conexion": 1793020508.405473
         },
         {
           "estado": "OK",
@@ -169,7 +169,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "26/10/2026-10:14:12"
+        "ultima_lectura": "26/10/2026-10:19:27"
       },
       "camaras": [
         {
@@ -206,7 +206,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "26/10/2026-10:14:12"
+        "ultima_lectura": "26/10/2026-10:19:42"
       },
       "camaras": [
         {
@@ -243,7 +243,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "26/10/2026-10:14:27"
+        "ultima_lectura": "26/10/2026-10:19:42"
       },
       "camaras": [
         {
@@ -281,5 +281,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-26T10:15:08"
+  "timestamp": "2026-10-26T10:20:18"
 }
