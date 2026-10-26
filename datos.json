@@ -2,12 +2,12 @@
   "proyectos": [
     {
       "_estado": {
-        "online": true
+        "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "23/10/2026-15:51:42"
+        "ultima_lectura": "26/10/2026-05:09:57"
       },
       "camaras": [
         {
@@ -167,9 +167,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "23/10/2026-15:51:42"
+        "ultima_lectura": "26/10/2026-05:09:57"
       },
       "camaras": [
         {
@@ -204,9 +204,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "23/10/2026-15:51:42"
+        "ultima_lectura": "25/10/2026-11:12:57"
       },
       "camaras": [
         {
@@ -241,9 +241,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "23/10/2026-15:51:57"
+        "ultima_lectura": "26/10/2026-05:10:12"
       },
       "camaras": [
         {
@@ -268,7 +268,7 @@
           "ultima_conexion": 1792588121.184342
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PSJ - FO02 - CE",
           "serial": "L42488960",
           "tipo": "PSJ - FO02 - CE",
@@ -281,5 +281,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-23T15:52:22"
+  "timestamp": "2026-10-26T09:28:25"
 }
