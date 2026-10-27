@@ -1,5 +1,0 @@
-Flask
-requests
-pystray
-Pillow
-pyezvizapi
