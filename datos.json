@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "27/10/2026-09:30:42"
+        "ultima_lectura": "27/10/2026-15:25:42"
       },
       "camaras": [
         {
@@ -86,13 +86,6 @@
       "camaras": [
         {
           "estado": "FAIL",
-          "name": "ARIZ - ALM - CS",
-          "serial": "BK9773784",
-          "tipo": "ARIZ - ALM - CS",
-          "ultima_conexion": null
-        },
-        {
-          "estado": "FAIL",
           "name": "ARIZ - HY01 - CE",
           "serial": "BC8859595",
           "tipo": "ARIZ - HY01 - CE",
@@ -123,24 +116,17 @@
         "online": false
       },
       "antena": {
-        "estado": "FAIL",
-        "nombre": "KIT STARLINK N° 22 - MINI - SOCOMPA 03",
-        "ultima_lectura": "—"
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
+        "ultima_lectura": "27/10/2026-15:25:57"
       },
       "camaras": [
         {
           "estado": "FAIL",
-          "name": "SOC - ALM - CS",
-          "serial": "BK9773894",
-          "tipo": "SOC - ALM - CS",
-          "ultima_conexion": null
-        },
-        {
-          "estado": "OK",
           "name": "MARI - HY04 - CE",
           "serial": "BC8859756",
           "tipo": "MARI - HY04 - CE",
-          "ultima_conexion": null
+          "ultima_conexion": 1793111166.4091315
         },
         {
           "estado": "FAIL",
@@ -150,17 +136,17 @@
           "ultima_conexion": null
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "MARI - HY04 - CT",
           "serial": "L42488931",
           "tipo": "MARI - HY04 - CT",
-          "ultima_conexion": null
+          "ultima_conexion": 1793110535.9023051
         }
       ],
       "estado_proyecto": "Activo",
       "nombre": "MARIANA 2",
       "sede": "NOA",
-      "starlink_id": "ut11800705-82113804-190b85ca"
+      "starlink_id": "ut01000000-00000000-00e8f13c"
     },
     {
       "_estado": {
@@ -169,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "27/10/2026-09:30:42"
+        "ultima_lectura": "27/10/2026-15:25:57"
       },
       "camaras": [
         {
@@ -206,7 +192,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "27/10/2026-09:30:42"
+        "ultima_lectura": "27/10/2026-15:25:57"
       },
       "camaras": [
         {
@@ -224,11 +210,11 @@
           "ultima_conexion": 1793075632.5831513
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "PSJ - HY02 - CT",
           "serial": "L42488875",
           "tipo": "PSJ - HY02 - CT",
-          "ultima_conexion": null
+          "ultima_conexion": 1793108790.7095356
         }
       ],
       "estado_proyecto": "Activo",
@@ -243,16 +229,9 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "27/10/2026-09:30:42"
+        "ultima_lectura": "27/10/2026-15:25:57"
       },
       "camaras": [
-        {
-          "estado": "OK",
-          "name": "PSJ -ALM - CS",
-          "serial": "BK0617275",
-          "tipo": "PSJ -ALM - CS",
-          "ultima_conexion": null
-        },
         {
           "estado": "OK",
           "name": "PSJ - FO02 - CT",
@@ -281,5 +260,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-27T09:31:36"
+  "timestamp": "2026-10-27T15:26:49"
 }
