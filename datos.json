@@ -2,12 +2,12 @@
   "proyectos": [
     {
       "_estado": {
-        "online": true
+        "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "27/10/2026-08:05:57"
+        "ultima_lectura": "27/10/2026-08:16:42"
       },
       "camaras": [
         {
@@ -137,9 +137,9 @@
         },
         {
           "estado": "OK",
-          "name": "CERRO LINDO EXTERIOR",
+          "name": "MARI - HY04 - CE",
           "serial": "BC8859756",
-          "tipo": "CERRO LINDO EXTERIOR",
+          "tipo": "MARI - HY04 - CE",
           "ultima_conexion": null
         },
         {
@@ -151,9 +151,9 @@
         },
         {
           "estado": "OK",
-          "name": "SOC - HY04 - CT",
+          "name": "MARI - HY04 - CT",
           "serial": "L42488931",
-          "tipo": "SOC - HY04 - CT",
+          "tipo": "MARI - HY04 - CT",
           "ultima_conexion": null
         }
       ],
@@ -167,9 +167,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "27/10/2026-08:05:57"
+        "ultima_lectura": "27/10/2026-08:16:57"
       },
       "camaras": [
         {
@@ -204,9 +204,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "27/10/2026-08:05:57"
+        "ultima_lectura": "27/10/2026-08:16:57"
       },
       "camaras": [
         {
@@ -241,9 +241,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "27/10/2026-08:05:42"
+        "ultima_lectura": "27/10/2026-08:16:42"
       },
       "camaras": [
         {
@@ -281,5 +281,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-27T08:06:37"
+  "timestamp": "2026-10-27T09:05:34"
 }
