@@ -1,4 +1,190 @@
 {
-  "proyectos": [],
-  "timestamp": "2026-10-30T12:58:55"
+  "proyectos": [
+    {
+      "_estado": {
+        "online": true
+      },
+      "antena": {
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
+        "ultima_lectura": "30/10/2026-13:03:12"
+      },
+      "camaras": [
+        {
+          "estado": "OK",
+          "name": "MARI - HY06 - CT",
+          "serial": "J64968587",
+          "tipo": "MARI - HY06 - CT",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "OK",
+          "name": "MARI - HY06 - CE",
+          "serial": "BF7706548",
+          "tipo": "MARI - HY06 - CE",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "OK",
+          "name": "MARI - HY06 - CI",
+          "serial": "BH3710402",
+          "tipo": "MARI - HY06 - CI",
+          "ultima_conexion": null
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "MARIANA",
+      "sede": "NOA",
+      "starlink_id": "ut41388399-80616403-d91263e7"
+    },
+    {
+      "_estado": {
+        "online": false
+      },
+      "antena": {
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
+        "ultima_lectura": "30/10/2026-13:03:12"
+      },
+      "camaras": [
+        {
+          "estado": "OK",
+          "name": "MARI - HY04 - CE",
+          "serial": "BC8859756",
+          "tipo": "MARI - HY04 - CE",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "FAIL",
+          "name": "MARI - HY04 - CI",
+          "serial": "K96399637",
+          "tipo": "MARI - HY04 - CI",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "OK",
+          "name": "MARI - HY04 - CT",
+          "serial": "L42488931",
+          "tipo": "MARI - HY04 - CT",
+          "ultima_conexion": null
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "MARIANA 2",
+      "sede": "NOA",
+      "starlink_id": "ut01000000-00000000-00e8f13c"
+    },
+    {
+      "_estado": {
+        "online": true
+      },
+      "antena": {
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
+        "ultima_lectura": "30/10/2026-13:03:12"
+      },
+      "camaras": [
+        {
+          "estado": "OK",
+          "name": "PIR - HY03 - CT",
+          "serial": "L42488899",
+          "tipo": "PIR - HY03 - CT",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "OK",
+          "name": "PIR - HY03 - CE",
+          "serial": "K91685117",
+          "tipo": "PIR - HY03 - CE",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "OK",
+          "name": "PIR -  HY03 - CI",
+          "serial": "K96399197",
+          "tipo": "PIR -  HY03 - CI",
+          "ultima_conexion": null
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "PIRQUITAS 1",
+      "sede": "NOA",
+      "starlink_id": "ut01000000-00000000-00d0e1d0"
+    },
+    {
+      "_estado": {
+        "online": false
+      },
+      "antena": {
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
+        "ultima_lectura": "30/10/2026-13:03:12"
+      },
+      "camaras": [
+        {
+          "estado": "FAIL",
+          "name": "PSJ - HY02-CE",
+          "serial": "BC8859620",
+          "tipo": "PSJ - HY02-CE",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "FAIL",
+          "name": "PSJ - HY02 - CI",
+          "serial": "K96400014",
+          "tipo": "PSJ - HY02 - CI",
+          "ultima_conexion": 1793075632.5831513
+        },
+        {
+          "estado": "OK",
+          "name": "PSJ - HY02 - CT",
+          "serial": "L42488875",
+          "tipo": "PSJ - HY02 - CT",
+          "ultima_conexion": null
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "SAN JORGE 2",
+      "sede": "MENDOZA",
+      "starlink_id": "ut41708600-03128002-99a25755"
+    },
+    {
+      "_estado": {
+        "online": false
+      },
+      "antena": {
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
+        "ultima_lectura": "30/10/2026-13:03:12"
+      },
+      "camaras": [
+        {
+          "estado": "OK",
+          "name": "PSJ - FO02 - CT",
+          "serial": "BE8067220",
+          "tipo": "PSJ - FO02 - CT",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "FAIL",
+          "name": "PSJ - FO02 - CI",
+          "serial": "BD2158889",
+          "tipo": "PSJ - FO02 - CI",
+          "ultima_conexion": 1793349100.85746
+        },
+        {
+          "estado": "FAIL",
+          "name": "PSJ - FO02 - CE",
+          "serial": "L42488960",
+          "tipo": "PSJ - FO02 - CE",
+          "ultima_conexion": 1793132910.3669457
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "SAN JORGE",
+      "sede": "MENDOZA",
+      "starlink_id": "ut31a00e86-85115802-59f6b6df"
+    }
+  ],
+  "timestamp": "2026-10-30T13:04:06"
 }
