@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "30/10/2026-09:08:57"
+        "ultima_lectura": "30/10/2026-09:13:57"
       },
       "camaras": [
         {
@@ -42,83 +42,9 @@
         "online": false
       },
       "antena": {
-        "estado": "FAIL",
-        "nombre": "KIT STARLINK N° 08 - V2 - ARIZARO 02",
-        "ultima_lectura": "22/10/2026-11:43:42"
-      },
-      "camaras": [
-        {
-          "estado": "FAIL",
-          "name": "ARIZ 2 -  FO01 - CI",
-          "serial": "K96399233",
-          "tipo": "ARIZ 2 -  FO01 - CI",
-          "ultima_conexion": null
-        },
-        {
-          "estado": "FAIL",
-          "name": "ARIZ 2 - FO01 - CE",
-          "serial": "BC8859691",
-          "tipo": "ARIZ 2 - FO01 - CE",
-          "ultima_conexion": 1792602566.9378457
-        },
-        {
-          "estado": "FAIL",
-          "name": "ARIZ 2 - FO01 - CT",
-          "serial": "L42488893",
-          "tipo": "ARIZ 2 - FO01 - CT",
-          "ultima_conexion": 1792588121.184342
-        }
-      ],
-      "estado_proyecto": "Activo",
-      "nombre": "ARIZARO 2",
-      "sede": "NOA",
-      "starlink_id": "ut01000000-00000000-00d64fa3"
-    },
-    {
-      "_estado": {
-        "online": false
-      },
-      "antena": {
-        "estado": "FAIL",
-        "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
-        "ultima_lectura": "—"
-      },
-      "camaras": [
-        {
-          "estado": "FAIL",
-          "name": "ARIZ - HY01 - CE",
-          "serial": "BC8859595",
-          "tipo": "ARIZ - HY01 - CE",
-          "ultima_conexion": null
-        },
-        {
-          "estado": "FAIL",
-          "name": "ARIZ - HY01 - CI",
-          "serial": "K96400783",
-          "tipo": "ARIZ - HY01 - CI",
-          "ultima_conexion": null
-        },
-        {
-          "estado": "FAIL",
-          "name": "ARIZ - HY01 - CT",
-          "serial": "L42488892",
-          "tipo": "ARIZ - HY01 - CT",
-          "ultima_conexion": null
-        }
-      ],
-      "estado_proyecto": "Activo",
-      "nombre": "ARIZARO",
-      "sede": "NOA",
-      "starlink_id": "ut01000000-00000000-00d5ead8"
-    },
-    {
-      "_estado": {
-        "online": false
-      },
-      "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "30/10/2026-09:08:57"
+        "ultima_lectura": "30/10/2026-09:13:57"
       },
       "camaras": [
         {
@@ -155,7 +81,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "30/10/2026-09:09:12"
+        "ultima_lectura": "30/10/2026-09:13:57"
       },
       "camaras": [
         {
@@ -190,9 +116,9 @@
         "online": false
       },
       "antena": {
-        "estado": "FAIL",
+        "estado": "OK",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "30/10/2026-08:40:42"
+        "ultima_lectura": "30/10/2026-09:13:06"
       },
       "camaras": [
         {
@@ -229,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "30/10/2026-09:08:57"
+        "ultima_lectura": "30/10/2026-09:13:57"
       },
       "camaras": [
         {
@@ -260,5 +186,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-30T09:09:40"
+  "timestamp": "2026-10-30T09:14:51"
 }
