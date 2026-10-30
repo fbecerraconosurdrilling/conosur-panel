@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "30/10/2026-13:24:12"
+        "ultima_lectura": "30/10/2026-13:29:12"
       },
       "camaras": [
         {
@@ -44,7 +44,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "30/10/2026-13:24:12"
+        "ultima_lectura": "30/10/2026-13:29:27"
       },
       "camaras": [
         {
@@ -76,34 +76,34 @@
     },
     {
       "_estado": {
-        "online": true
+        "online": false
       },
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "30/10/2026-13:24:12"
+        "ultima_lectura": "30/10/2026-13:29:27"
       },
       "camaras": [
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "PIR - HY03 - CT",
           "serial": "L42488899",
           "tipo": "PIR - HY03 - CT",
-          "ultima_conexion": null
+          "ultima_conexion": 1793377497.3457088
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "PIR - HY03 - CE",
           "serial": "K91685117",
           "tipo": "PIR - HY03 - CE",
-          "ultima_conexion": null
+          "ultima_conexion": 1793377497.3457088
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "PIR -  HY03 - CI",
           "serial": "K96399197",
           "tipo": "PIR -  HY03 - CI",
-          "ultima_conexion": null
+          "ultima_conexion": 1793377497.3457088
         }
       ],
       "estado_proyecto": "Activo",
@@ -118,7 +118,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "30/10/2026-13:24:12"
+        "ultima_lectura": "30/10/2026-13:29:12"
       },
       "camaras": [
         {
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "30/10/2026-13:24:12"
+        "ultima_lectura": "30/10/2026-13:29:27"
       },
       "camaras": [
         {
@@ -186,5 +186,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-30T13:24:57"
+  "timestamp": "2026-10-30T13:30:08"
 }
