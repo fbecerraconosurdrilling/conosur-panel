@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "30/10/2026-20:57:27"
+        "ultima_lectura": "30/10/2026-21:02:42"
       },
       "camaras": [
         {
@@ -44,7 +44,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "30/10/2026-20:57:27"
+        "ultima_lectura": "30/10/2026-21:02:42"
       },
       "camaras": [
         {
@@ -81,7 +81,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "30/10/2026-20:57:12"
+        "ultima_lectura": "30/10/2026-21:02:42"
       },
       "camaras": [
         {
@@ -116,7 +116,7 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
         "ultima_lectura": "30/10/2026-20:50:12"
       },
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "30/10/2026-20:56:57"
+        "ultima_lectura": "30/10/2026-21:02:42"
       },
       "camaras": [
         {
@@ -186,5 +186,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-10-30T20:58:19"
+  "timestamp": "2026-10-30T21:03:34"
 }
