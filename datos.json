@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "01/11/2026-21:59:42"
+        "ultima_lectura": "01/11/2026-22:05:27"
       },
       "camaras": [
         {
@@ -44,15 +44,15 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "01/11/2026-21:59:57"
+        "ultima_lectura": "01/11/2026-22:05:27"
       },
       "camaras": [
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "MARI - HY04 - CE",
           "serial": "BC8859756",
           "tipo": "MARI - HY04 - CE",
-          "ultima_conexion": null
+          "ultima_conexion": 1793581256.0372381
         },
         {
           "estado": "FAIL",
@@ -81,7 +81,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "01/11/2026-21:59:42"
+        "ultima_lectura": "01/11/2026-22:05:12"
       },
       "camaras": [
         {
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "01/11/2026-21:59:42"
+        "ultima_lectura": "01/11/2026-22:05:12"
       },
       "camaras": [
         {
@@ -186,5 +186,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-11-01T22:00:56"
+  "timestamp": "2026-11-01T22:06:16"
 }
