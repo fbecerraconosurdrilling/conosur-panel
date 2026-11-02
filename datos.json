@@ -2,12 +2,12 @@
   "proyectos": [
     {
       "_estado": {
-        "online": true
+        "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "02/11/2026-08:03:57"
+        "ultima_lectura": "02/11/2026-11:29:57"
       },
       "camaras": [
         {
@@ -42,9 +42,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "02/11/2026-08:03:57"
+        "ultima_lectura": "02/11/2026-11:29:57"
       },
       "camaras": [
         {
@@ -79,9 +79,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "02/11/2026-08:03:57"
+        "ultima_lectura": "02/11/2026-09:53:27"
       },
       "camaras": [
         {
@@ -92,11 +92,11 @@
           "ultima_conexion": 1793543249.784412
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "PIR - HY03 - CE",
           "serial": "K91685117",
           "tipo": "PIR - HY03 - CE",
-          "ultima_conexion": null
+          "ultima_conexion": 1793617489.7736201
         },
         {
           "estado": "FAIL",
@@ -116,9 +116,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "02/11/2026-08:04:12"
+        "ultima_lectura": "02/11/2026-11:29:57"
       },
       "camaras": [
         {
@@ -153,9 +153,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "02/11/2026-08:03:57"
+        "ultima_lectura": "02/11/2026-11:29:57"
       },
       "camaras": [
         {
@@ -186,5 +186,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-11-02T08:04:49"
+  "timestamp": "2026-11-02T14:11:45"
 }
