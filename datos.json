@@ -2,12 +2,12 @@
   "proyectos": [
     {
       "_estado": {
-        "online": true
+        "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "02/11/2026-16:52:57"
+        "ultima_lectura": "02/11/2026-22:41:42"
       },
       "camaras": [
         {
@@ -42,9 +42,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "02/11/2026-16:52:57"
+        "ultima_lectura": "02/11/2026-22:41:42"
       },
       "camaras": [
         {
@@ -81,7 +81,7 @@
       "antena": {
         "estado": "FAIL",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "02/11/2026-09:53:27"
+        "ultima_lectura": "02/11/2026-22:41:42"
       },
       "camaras": [
         {
@@ -116,9 +116,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 21 - MINI - SAN JORGE 01",
-        "ultima_lectura": "02/11/2026-16:52:57"
+        "ultima_lectura": "02/11/2026-16:53:42"
       },
       "camaras": [
         {
@@ -153,17 +153,17 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 11 - V4 - SAN JORGE 02",
-        "ultima_lectura": "02/11/2026-16:52:57"
+        "ultima_lectura": "02/11/2026-22:41:57"
       },
       "camaras": [
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "PSJ - FO02 - CT",
           "serial": "BE8067220",
           "tipo": "PSJ - FO02 - CT",
-          "ultima_conexion": null
+          "ultima_conexion": 1793649214.58902
         },
         {
           "estado": "FAIL",
@@ -186,5 +186,5 @@
       "starlink_id": "ut31a00e86-85115802-59f6b6df"
     }
   ],
-  "timestamp": "2026-11-02T16:53:34"
+  "timestamp": "2026-11-03T08:09:58"
 }
