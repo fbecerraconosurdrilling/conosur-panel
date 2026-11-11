@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "11/11/2026-15:47:57"
+        "ultima_lectura": "11/11/2026-15:48:42"
       },
       "camaras": [
         {
@@ -37,7 +37,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "11/11/2026-15:48:12"
+        "ultima_lectura": "11/11/2026-15:48:57"
       },
       "camaras": [
         {
@@ -148,7 +148,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
-        "ultima_lectura": "11/11/2026-15:48:12"
+        "ultima_lectura": "11/11/2026-15:48:57"
       },
       "camaras": [
         {
@@ -179,5 +179,5 @@
       "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-11-11T15:48:54"
+  "timestamp": "2026-11-11T15:49:41"
 }
