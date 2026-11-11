@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "11/11/2026-11:52:42"
+        "ultima_lectura": "11/11/2026-11:57:42"
       },
       "camaras": [
         {
@@ -37,7 +37,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "11/11/2026-11:52:57"
+        "ultima_lectura": "11/11/2026-11:57:57"
       },
       "camaras": [
         {
@@ -74,7 +74,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "11/11/2026-11:52:57"
+        "ultima_lectura": "11/11/2026-11:57:57"
       },
       "camaras": [
         {
@@ -103,7 +103,44 @@
       "nombre": "PIRQUITAS 1",
       "sede": "NOA",
       "starlink_id": "ut01000000-00000000-00d0e1d0"
+    },
+    {
+      "_estado": {
+        "online": false
+      },
+      "antena": {
+        "estado": "OK",
+        "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
+        "ultima_lectura": "11/11/2026-11:57:57"
+      },
+      "camaras": [
+        {
+          "estado": "FAIL",
+          "name": "CERRLIN - HY01 - CI",
+          "serial": "K96400783",
+          "tipo": "CERRLIN - HY01 - CI",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "OK",
+          "name": "CERRLIN - HY01 - CE",
+          "serial": "BC8859595",
+          "tipo": "CERRLIN - HY01 - CE",
+          "ultima_conexion": null
+        },
+        {
+          "estado": "FAIL",
+          "name": "CERRLIN - HY01 - CT",
+          "serial": "L42488892",
+          "tipo": "CERRLIN - HY01 - CT",
+          "ultima_conexion": null
+        }
+      ],
+      "estado_proyecto": "Activo",
+      "nombre": "CERRO LINDO",
+      "sede": "NOA",
+      "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-11-11T11:53:35"
+  "timestamp": "2026-11-11T11:58:39"
 }
