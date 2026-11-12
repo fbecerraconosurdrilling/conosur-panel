@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "12/11/2026-17:19:12"
+        "ultima_lectura": "12/11/2026-17:24:12"
       },
       "camaras": [
         {
@@ -37,7 +37,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "12/11/2026-17:19:27"
+        "ultima_lectura": "12/11/2026-17:24:27"
       },
       "camaras": [
         {
@@ -148,7 +148,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
-        "ultima_lectura": "12/11/2026-17:19:27"
+        "ultima_lectura": "12/11/2026-17:24:12"
       },
       "camaras": [
         {
@@ -159,11 +159,11 @@
           "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "CERRLIN - HY01 - CE",
           "serial": "BC8859595",
           "tipo": "CERRLIN - HY01 - CE",
-          "ultima_conexion": 1794512966.894583
+          "ultima_conexion": null
         },
         {
           "estado": "FAIL",
@@ -179,5 +179,5 @@
       "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-11-12T17:20:09"
+  "timestamp": "2026-11-12T17:25:18"
 }
