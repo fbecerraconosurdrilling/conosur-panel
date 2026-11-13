@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "13/11/2026-14:26:42"
+        "ultima_lectura": "13/11/2026-14:31:42"
       },
       "camaras": [
         {
@@ -44,7 +44,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "13/11/2026-14:26:27"
+        "ultima_lectura": "13/11/2026-14:31:27"
       },
       "camaras": [
         {
@@ -76,34 +76,34 @@
     },
     {
       "_estado": {
-        "online": false
+        "online": true
       },
       "antena": {
-        "estado": "FAIL",
+        "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "13/11/2026-13:43:42"
+        "ultima_lectura": "13/11/2026-14:31:27"
       },
       "camaras": [
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR -  R3 - CI",
           "serial": "K96399197",
           "tipo": "PIR -  R3 - CI",
-          "ultima_conexion": 1794588365.7017584
+          "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR - R3 - CE",
           "serial": "K91685117",
           "tipo": "PIR - R3 - CE",
-          "ultima_conexion": 1794585891.067042
+          "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR - R3 - CT",
           "serial": "L42488899",
           "tipo": "PIR - R3 - CT",
-          "ultima_conexion": 1794585891.067042
+          "ultima_conexion": null
         }
       ],
       "estado_proyecto": "Activo",
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
-        "ultima_lectura": "13/11/2026-14:26:42"
+        "ultima_lectura": "13/11/2026-14:31:42"
       },
       "camaras": [
         {
@@ -186,5 +186,5 @@
       "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-11-13T14:27:21"
+  "timestamp": "2026-11-13T14:32:29"
 }
