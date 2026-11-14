@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "14/11/2026-01:41:12"
+        "ultima_lectura": "14/11/2026-01:46:12"
       },
       "camaras": [
         {
@@ -44,7 +44,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "14/11/2026-01:41:12"
+        "ultima_lectura": "14/11/2026-01:46:12"
       },
       "camaras": [
         {
@@ -81,7 +81,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "14/11/2026-01:41:12"
+        "ultima_lectura": "14/11/2026-01:46:12"
       },
       "camaras": [
         {
@@ -113,34 +113,34 @@
     },
     {
       "_estado": {
-        "online": false
+        "online": true
       },
       "antena": {
-        "estado": "FAIL",
+        "estado": "OK",
         "nombre": "KIT STARLINK N° 03 - V2 - PIRQUITAS 1",
-        "ultima_lectura": "14/11/2026-00:30:57"
+        "ultima_lectura": "14/11/2026-01:46:12"
       },
       "camaras": [
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR2 - HY03 - CI",
           "serial": "K96400793",
           "tipo": "PIR2 - HY03 - CI",
-          "ultima_conexion": 1794627001.019654
+          "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR2 - HY03 - CE",
           "serial": "L42488904",
           "tipo": "PIR2 - HY03 - CE",
-          "ultima_conexion": 1794627001.019654
+          "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR2 - HY03 -CT",
           "serial": "K91685085",
           "tipo": "PIR2 - HY03 -CT",
-          "ultima_conexion": 1794627001.019654
+          "ultima_conexion": null
         }
       ],
       "estado_proyecto": "Activo",
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
-        "ultima_lectura": "14/11/2026-01:41:12"
+        "ultima_lectura": "14/11/2026-01:46:12"
       },
       "camaras": [
         {
@@ -186,5 +186,5 @@
       "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-11-14T01:41:54"
+  "timestamp": "2026-11-14T01:47:01"
 }
