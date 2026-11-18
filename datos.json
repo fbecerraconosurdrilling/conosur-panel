@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "18/11/2026-14:06:42"
+        "ultima_lectura": "18/11/2026-14:11:27"
       },
       "camaras": [
         {
@@ -44,7 +44,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "18/11/2026-14:06:42"
+        "ultima_lectura": "18/11/2026-14:11:42"
       },
       "camaras": [
         {
@@ -85,25 +85,25 @@
       },
       "camaras": [
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR -  R3 - CI",
           "serial": "K96399197",
           "tipo": "PIR -  R3 - CI",
-          "ultima_conexion": 1795019184.4610739
+          "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR - R3 - CE",
           "serial": "K91685117",
           "tipo": "PIR - R3 - CE",
-          "ultima_conexion": 1795017028.8015654
+          "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR - R3 - CT",
           "serial": "L42488899",
           "tipo": "PIR - R3 - CT",
-          "ultima_conexion": 1795017028.8015654
+          "ultima_conexion": null
         }
       ],
       "estado_proyecto": "Activo",
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
-        "ultima_lectura": "18/11/2026-14:06:42"
+        "ultima_lectura": "18/11/2026-14:11:42"
       },
       "camaras": [
         {
@@ -186,5 +186,5 @@
       "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-11-18T14:07:27"
+  "timestamp": "2026-11-18T14:12:35"
 }
