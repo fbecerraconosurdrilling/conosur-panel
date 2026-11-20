@@ -7,7 +7,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "20/11/2026-08:52:42"
+        "ultima_lectura": "20/11/2026-08:57:57"
       },
       "camaras": [
         {
@@ -44,7 +44,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "20/11/2026-08:52:42"
+        "ultima_lectura": "20/11/2026-08:57:57"
       },
       "camaras": [
         {
@@ -81,7 +81,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "20/11/2026-08:52:42"
+        "ultima_lectura": "20/11/2026-08:57:57"
       },
       "camaras": [
         {
@@ -118,7 +118,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 03 - V2 - PIRQUITAS 1",
-        "ultima_lectura": "20/11/2026-08:52:42"
+        "ultima_lectura": "20/11/2026-08:57:57"
       },
       "camaras": [
         {
@@ -129,18 +129,18 @@
           "ultima_conexion": 1794819577.6589797
         },
         {
-          "estado": "FAIL",
+          "estado": "OK",
           "name": "PIR2 - HY03 - CE",
           "serial": "L42488904",
           "tipo": "PIR2 - HY03 - CE",
-          "ultima_conexion": 1794819577.6589797
+          "ultima_conexion": null
         },
         {
-          "estado": "FAIL",
-          "name": "PIR2 - HY03 - CT",
+          "estado": "OK",
+          "name": "PIR2 - HY03 -CT",
           "serial": "K91685085",
-          "tipo": "PIR2 - HY03 - CT",
-          "ultima_conexion": 1794819577.6589797
+          "tipo": "PIR2 - HY03 -CT",
+          "ultima_conexion": null
         }
       ],
       "estado_proyecto": "Activo",
@@ -155,7 +155,7 @@
       "antena": {
         "estado": "OK",
         "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
-        "ultima_lectura": "20/11/2026-08:52:42"
+        "ultima_lectura": "20/11/2026-08:57:57"
       },
       "camaras": [
         {
@@ -186,5 +186,5 @@
       "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-11-20T08:53:33"
+  "timestamp": "2026-11-20T08:58:41"
 }
