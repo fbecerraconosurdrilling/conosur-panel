@@ -5,9 +5,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 23 - MINI - SOCOMPA 02",
-        "ultima_lectura": "20/11/2026-15:57:57"
+        "ultima_lectura": "22/11/2026-13:04:27"
       },
       "camaras": [
         {
@@ -42,9 +42,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 01 - SOCOMPA 1",
-        "ultima_lectura": "20/11/2026-15:57:12"
+        "ultima_lectura": "22/11/2026-13:04:42"
       },
       "camaras": [
         {
@@ -55,11 +55,11 @@
           "ultima_conexion": null
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "MARI - HY04 - CE",
           "serial": "BC8859756",
           "tipo": "MARI - HY04 - CE",
-          "ultima_conexion": null
+          "ultima_conexion": 1795201134.5312269
         },
         {
           "estado": "OK",
@@ -76,12 +76,12 @@
     },
     {
       "_estado": {
-        "online": true
+        "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 09 - V2 - PIRQUITAS 02",
-        "ultima_lectura": "20/11/2026-15:58:12"
+        "ultima_lectura": "22/11/2026-13:04:42"
       },
       "camaras": [
         {
@@ -116,9 +116,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 03 - V2 - PIRQUITAS 1",
-        "ultima_lectura": "20/11/2026-15:57:27"
+        "ultima_lectura": "22/11/2026-13:04:27"
       },
       "camaras": [
         {
@@ -153,9 +153,9 @@
         "online": false
       },
       "antena": {
-        "estado": "OK",
+        "estado": "FAIL",
         "nombre": "KIT STARLINK N° 07 - V2 - ARIZARO 01",
-        "ultima_lectura": "20/11/2026-15:57:57"
+        "ultima_lectura": "20/11/2026-16:08:42"
       },
       "camaras": [
         {
@@ -166,18 +166,18 @@
           "ultima_conexion": 1795198978.8477988
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "CERRLIN - HY01 - CE",
           "serial": "BC8859595",
           "tipo": "CERRLIN - HY01 - CE",
-          "ultima_conexion": null
+          "ultima_conexion": 1795201134.5312269
         },
         {
-          "estado": "OK",
+          "estado": "FAIL",
           "name": "CERRLIN - HY01 - CT",
           "serial": "L42488892",
           "tipo": "CERRLIN - HY01 - CT",
-          "ultima_conexion": null
+          "ultima_conexion": 1795201134.5312269
         }
       ],
       "estado_proyecto": "Activo",
@@ -186,5 +186,5 @@
       "starlink_id": "ut01000000-00000000-00d5ead8"
     }
   ],
-  "timestamp": "2026-11-20T15:58:54"
+  "timestamp": "2026-11-22T18:52:32"
 }
